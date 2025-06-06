@@ -1,0 +1,17 @@
+body{
+    background-color: #add8e6;
+}
+
+a{
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #67a9bf;
+    color: #f0f8ff;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+a:hover{
+    background-color: #3b7082;
+}

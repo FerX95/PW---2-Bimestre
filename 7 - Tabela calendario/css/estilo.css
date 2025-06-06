@@ -1,0 +1,59 @@
+body{
+    background-color: #3e3ea0;
+}
+
+table{
+    margin: auto;
+    width: 650px;
+    height: 450px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+td:not(#feriados){
+    text-align: center;
+}
+
+td{
+    cursor: pointer;
+    border: 1px solid #000000;
+    font-size: 18px;
+}
+
+#mes{
+    height: 70px;
+    font-size: 35px;
+    background-color: #0f0f5b;
+    color: #ffffff;
+}
+
+#feriados{
+    height: 80px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.domingo{
+    color: #ff0000;
+    font-weight: bolder;
+}
+
+.feriado{
+    background-color: #0f0f5b;
+    color: #ffffff;
+}
+
+.mes_p{
+    color: #0000006c;
+}
+
+.domingo.mes_p{
+    color: #ff00006c;
+}
+
+td:hover{
+    transition: 0.6s;
+    background-color: #97b0d8;
+}
